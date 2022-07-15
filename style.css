@@ -1,0 +1,74 @@
+/**
+Theme Name: WPAC
+Author: Brainstorm Force
+Author URI: http://wpacademy.pk
+Description: My custom theme for WordPress.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wpac
+Template: astra
+*/
+.calculator-form, .love-result {
+    text-align: center;
+    width: 900px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+    border: 2px solid #ededed;
+    border-radius: 5px;
+}
+.calculator-form h1 {
+    font-weight: bold;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.calculator-form .form-fields .input-fields {
+    margin: 50px 0;
+}
+.calculator-form .submit-btn button {
+    border-radius: 50px;
+    background: #ffffff;
+    border: 2px solid #da2b2b;
+    color: #da2b2b;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.calculator-form #error {
+    background: red;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.calculator-form #error span {
+    padding: 0 10px;
+}
+.love-result {
+    display: none;
+    border: 5px solid rgb(218, 43, 43);
+}
+.love-result #value {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 5em;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 300px;
+}
+.love-result #message {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
