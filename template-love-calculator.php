@@ -51,7 +51,7 @@ get_header(); ?>
                     "url": "https://love-calculator.p.rapidapi.com/getPercentage?sname="+sname+"&fname="+name,
                     "method": "GET",
                     "headers": {
-                        "X-RapidAPI-Key": "a71322d35amshdf8ed9e865770a9p15a4afjsn47c9a28a3c64",
+                        "X-RapidAPI-Key": "USE_YOUR_API_KEY",
                         "X-RapidAPI-Host": "love-calculator.p.rapidapi.com"
                     }
                 };
